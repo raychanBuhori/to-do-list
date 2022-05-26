@@ -108,7 +108,7 @@ class AddTask extends React.Component {
           footer={[
             <Button
               key="cancel"
-              onClick={this._handleToCancel}
+              onClick={this._toggleAddTaskVisible}
             >
               Cancel
             </Button>,
