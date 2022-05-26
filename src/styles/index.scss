@@ -1,0 +1,66 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import '~antd/dist/antd.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@font-face {
+  font-family: 'Nunito', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Nunito&display=swap') format();
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.body {
+  padding: 0 100px;
+}
+
+.container {
+  background-color: whitesmoke;
+  padding: 1rem;
+  min-height: 100vh;
+  // max-height: 100vh;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+
+.logo {
+  float: left;
+  width: 150px;
+  height: 31px;
+
+  img {
+    width: 40px;
+  }
+
+  label {
+    padding-left: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white
+  }
+}
+
+.site-card-wrapper {
+  padding: 30px;
+  background: #ececec;
+
+  .ant-ribbon-wrapper {
+    cursor: pointer;
+  }
+}
+
+.ant-card {
+  .ant-card-head {
+    font-weight: 700;
+  }
+}
+
+
+
